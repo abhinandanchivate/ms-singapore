@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T02:18:58.796Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" version="22.0.8" etag="DHbQfEE4fExuZV2CphSd" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T03:00:56.670Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="JNDIdedihyWcsrBg7MtK" version="22.0.8" type="github">
   <diagram name="Page-1" id="DVtpfkNWE3P7lbzoHeYz">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ehq0vjMSubwdyzwMK6O8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ehq0vjMSubwdyzwMK6O8-1" target="Ehq0vjMSubwdyzwMK6O8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehq0vjMSubwdyzwMK6O8-1" value="Monolith : &amp;nbsp;single application.&lt;br&gt;architecture :&lt;br&gt;one code base &lt;br&gt;one build / one jar" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="190" y="170" width="510" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehq0vjMSubwdyzwMK6O8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ehq0vjMSubwdyzwMK6O8-2" target="Ehq0vjMSubwdyzwMK6O8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehq0vjMSubwdyzwMK6O8-2" value="Traits of Monoliths :&amp;nbsp;&lt;br&gt;1. code is stored together.scaling is an all or nothing situation.&lt;br&gt;s&lt;br&gt;will use one database&lt;br&gt;" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="460" width="445" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehq0vjMSubwdyzwMK6O8-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ehq0vjMSubwdyzwMK6O8-4" target="Ehq0vjMSubwdyzwMK6O8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehq0vjMSubwdyzwMK6O8-4" value="Benefits :&amp;nbsp;&lt;br&gt;1. deployment is easy.&lt;br&gt;&amp;nbsp;development is easy.(tech stack is fixed ) testing : only one app(junit5 and mockito.)" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="421.25" y="820" width="372.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehq0vjMSubwdyzwMK6O8-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ehq0vjMSubwdyzwMK6O8-6" target="Ehq0vjMSubwdyzwMK6O8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehq0vjMSubwdyzwMK6O8-6" value="Problems with monolith :&amp;nbsp;&lt;br&gt;as monolith based app req grows then complexity grows ---&amp;gt; anti design pattern. &lt;br&gt;it would be dificult to modify the code.&lt;br&gt;tech wise lock in.&lt;br&gt;CI/CD : difficult. CAR&lt;br&gt;&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="1110" width="362.5" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehq0vjMSubwdyzwMK6O8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ehq0vjMSubwdyzwMK6O8-8" target="Ehq0vjMSubwdyzwMK6O8-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehq0vjMSubwdyzwMK6O8-8" value="is monolith really bad?" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="668.75" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ehq0vjMSubwdyzwMK6O8-10" value="monolith ---&amp;gt; microservices&lt;br&gt;(cost)" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="668.75" y="1690" width="281.25" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
