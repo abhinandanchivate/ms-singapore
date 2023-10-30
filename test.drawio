@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T03:00:56.670Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="JNDIdedihyWcsrBg7MtK" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T07:33:46.662Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="_GsEcYkn541yaF86BZbI" version="22.0.8" type="github" pages="3">
   <diagram name="Page-1" id="DVtpfkNWE3P7lbzoHeYz">
     <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,6 +36,82 @@
         </mxCell>
         <mxCell id="Ehq0vjMSubwdyzwMK6O8-10" value="monolith ---&amp;gt; microservices&lt;br&gt;(cost)" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="668.75" y="1690" width="281.25" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vaYvENzS6qljOEzEJU63" name="microservices">
+    <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzB9_EaaB38uwtyEiHU6-1" target="fzB9_EaaB38uwtyEiHU6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-1" value="Microservices :&amp;nbsp;&lt;br&gt;its a small targeted service . each service has its own repository." style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="140" y="110" width="760" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzB9_EaaB38uwtyEiHU6-2" target="fzB9_EaaB38uwtyEiHU6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-2" value="they are isolated from each other." style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="310" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzB9_EaaB38uwtyEiHU6-4" target="fzB9_EaaB38uwtyEiHU6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-4" value="deployment should be separate ." style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="450" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzB9_EaaB38uwtyEiHU6-6" target="fzB9_EaaB38uwtyEiHU6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-6" value="micro services are loosely coupled.(flexibility). tech wise loosely coupled." style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="585" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzB9_EaaB38uwtyEiHU6-8" target="fzB9_EaaB38uwtyEiHU6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-8" value="how they are going to communicate each other?" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="725" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzB9_EaaB38uwtyEiHU6-10" target="fzB9_EaaB38uwtyEiHU6-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-10" value="1. rest call&lt;br&gt;2. Kafka" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="865" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzB9_EaaB38uwtyEiHU6-12" target="fzB9_EaaB38uwtyEiHU6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-12" value="Architecture :&amp;nbsp;&lt;br&gt;applications are composed into micro services. each MS will have its own DB. &amp;nbsp;shared DB. &amp;nbsp;each service will have its own deployment cycle. scaling of individual service will be done. &amp;nbsp;CI/CD would be easier.&lt;br&gt;" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="408.75" y="980" width="392.5" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzB9_EaaB38uwtyEiHU6-14" target="fzB9_EaaB38uwtyEiHU6-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-14" value="benefits : easy to understand and develop. :&lt;br&gt;&amp;nbsp;reliability of service/app is increased. &lt;br&gt;tech flexibility&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="1230" width="275" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzB9_EaaB38uwtyEiHU6-16" target="fzB9_EaaB38uwtyEiHU6-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-16" value="Cons / problems :&amp;nbsp;&lt;br&gt;&lt;div&gt;Integration testing can be difficult&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Deployments are more complex. Rather than one application to deploy, you now have many.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Operational cost with each service - Each service is a small application&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Needs own repo, own deployment process, own database, etc&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Additional hardware resources - Additional services need additional hardware to run on&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="1480" width="485" height="415" as="geometry" />
+        </mxCell>
+        <mxCell id="fzB9_EaaB38uwtyEiHU6-18" value="how big should a micro service be?&lt;br&gt;min : 1 &amp;nbsp;max : N endpoint (debatable)==&amp;gt; purely depending on the architecture of your platform.&lt;br&gt;development : 10-12&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;fontSize=22;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="2061" width="445" height="277.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qZtSrLM1VDXJIyrYnE7a" name="adopting MS">
+    <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NClo0X-xV6ZSGC8WWwAg-1" value="Adopting MS :•Often applications will start as monoliths&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Might be because of being older legacy applications&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;•Or a development choice&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Remember there is a ‘cost’ to splitting into microservices&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;•Its not uncommon to start development of an application as a monolith&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Monolithic architectures are well established in companies&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Many companies are just starting to adopt Microservices&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Decomposing the micro service :&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="770" height="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
