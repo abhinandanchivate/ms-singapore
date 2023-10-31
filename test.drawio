@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T07:33:46.662Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="_GsEcYkn541yaF86BZbI" version="22.0.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-31T07:24:52.998Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="tMAtRBE6J3PF6S_-fiyb" version="22.0.8" type="github" pages="4">
   <diagram name="Page-1" id="DVtpfkNWE3P7lbzoHeYz">
     <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -113,6 +113,14 @@
         <mxCell id="NClo0X-xV6ZSGC8WWwAg-1" value="Adopting MS :•Often applications will start as monoliths&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Might be because of being older legacy applications&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;•Or a development choice&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Remember there is a ‘cost’ to splitting into microservices&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;•Its not uncommon to start development of an application as a monolith&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Monolithic architectures are well established in companies&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Many companies are just starting to adopt Microservices&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Decomposing the micro service :&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="80" y="10" width="770" height="440" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gcv9wyIVjZo2P2vThClY" name="microservice Architecture">
+    <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
